@@ -53,7 +53,7 @@ internal class LoanRequestControllerTest {
 
         encryptComponent = EncryptComponent()
 
-        loanRequestServiceImpl = LoanRequestServiceImpl(generatedKey, userInfoRepository, encryptComponent)
+//        loanRequestServiceImpl = LoanRequestServiceImpl(generatedKey, userInfoRepository, encryptComponent)
 
         loanRequestController = LoanRequestController(loanRequestServiceImpl)
 

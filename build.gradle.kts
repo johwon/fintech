@@ -65,7 +65,7 @@ subprojects {
 
 project(":api") {
     dependencies {
-//        implementation(project(":kafka"))
+        implementation(project(":kafka"))
         implementation(project(":domain"))
     }
 }

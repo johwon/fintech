@@ -10,6 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories
 
 @SpringBootApplication
 @EntityScan(basePackages = ["com.zerobase.domain"])
+@ComponentScan(basePackages = ["com.zerobase"])
 class ApiApplication
 
 fun main(args: Array<String>) {
